@@ -16,17 +16,26 @@ Gestures are the nonverbally exchanged messages and these gestures are understoo
 
 Sign language is a visual language and consists of 3 major components 
 
-![components](images/components.jpg)
+<img width="712" height="208" alt="image" src="https://github.com/user-attachments/assets/7f66dab7-84f3-46d9-b256-1b869c75a205" />
+
 
 In this project I basically focus on producing a model which can recognize Fingerspelling based hand gestures in order to form a complete word by combining each gesture. 
 
 The gestures I  trained are as given in the image below.
 
-![Signs](images/signs.jpg)
+<img width="1272" height="706" alt="image" src="https://github.com/user-attachments/assets/d04debd5-9b85-48af-835b-15c906c1ba93" />
+
+
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/775978f9-2bd2-49c0-a913-8bbd90fb7ad1" />
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/a7ac8559-7776-4164-b4ad-7c4741328a89" />
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/527caa4f-a5e2-467c-8079-7cb5a44a10e8" />
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/fe959592-85ea-4e69-8519-bd0ee993154c" />
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/02a0c45a-51ca-49f5-a73f-e31c56c488a4" />
+
 
 # Steps of building this project
 
-### 1. The first Step of building this project was of creating the folders
+### 1. The first Step of building this project was of creating the folders and make main.py file install all necessary libraries and boom!! run the code
 
 ``` python
 # Importing the Libraries Required
@@ -149,11 +158,10 @@ while cap.isOpened():
 cap.release()
 cv2.destroyAllWindows()
 
-<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/775978f9-2bd2-49c0-a913-8bbd90fb7ad1" />
-<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/a7ac8559-7776-4164-b4ad-7c4741328a89" />
-<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/527caa4f-a5e2-467c-8079-7cb5a44a10e8" />
-<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/fe959592-85ea-4e69-8519-bd0ee993154c" />
-<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/02a0c45a-51ca-49f5-a73f-e31c56c488a4" />
+
+
+
+
 
 
 
